@@ -1,0 +1,43 @@
+.sidebar {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    transition: all 0.3s;
+  }
+  .sidebar ul {
+    display: flex;
+  }
+  .sidebar ul li {
+    list-style-type: none;
+  }
+  .sidebar i{
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      right: 20px;
+      top: 40px;
+      cursor: pointer;
+  }
+  .sidebar ul li a:hover {
+    color: white;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color:teal;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
+    transition: all 0.3s;
+   
+  }
+  
+  .close {
+     transform: translate(0, -100px);
+     transition: all 0.4s;
+  }
+  button{
+      margin-left: 100px;
+      margin-top: 50px;
+  }
